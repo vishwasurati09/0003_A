@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Dashboard</h2>
+
+    <p class="dashboard-info">
+        Enrolment Number: <strong>003_A</strong>
+    </p>
+
+    <h3>Select One Elective Subject</h3>
+
+    <form onsubmit="saveSubject(event)">
+        <label><input type="radio" name="subject" value="NLP" required> NLP</label>
+        <label><input type="radio" name="subject" value="IoT"> IoT</label>
+        <label><input type="radio" name="subject" value="DevOps"> DevOps</label>
+
+        <button type="submit">Save</button>
+    </form>
+</div>
+
+<script>
+function saveSubject(event){
+    event.preventDefault();
+    alert("Subject Saved Successfully!");
+}
+</script>
+
+</body>
+</html>
