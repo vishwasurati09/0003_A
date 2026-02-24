@@ -27,21 +27,6 @@ The application includes:
 
 ---
 
-## 📁 Project Structure
-
-0003_A/
-│── login.html  
-│── register.html  
-│── dashboard.html  
-│── style.css  
-│── README.md  
-│── screenshots/  
-│     ├── login.png  
-│     ├── register.png  
-│     └── dashboard.png  
-
----
-
 ## 📸 Screenshots
 
 ### Login Page
